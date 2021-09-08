@@ -32,7 +32,7 @@ LOGGER = logging.getLogger(__name__)
 logging.getLogger('googleapiclient.discovery').setLevel(logging.ERROR)
 
 if USE_SERVICE_ACCOUNTS:
-    SERVICE_ACCOUNT_INDEX = randrange(len(os.listdir("accounts")))
+    SERVICE_ACCOUNT_INDEX = randrange(99)
 
 TELEGRAPHLIMIT = 80
 
